@@ -163,14 +163,16 @@ def rhs_ode(
     # Phase 1 (K < K_threshold): Diminishing returns
     #   dK_i/dt = alpha * aX_i / (1 + beta_dim * K_i)
     # Phase 2 (K >= K_threshold): Recursive self-improvement (compounding)
-    #   dK_i/dt = alpha * aX_i * K_i
+    #   dK_i/dt = alpha * aX_i * K_i / (K_threshold * (1 + beta_dim * K_threshold))
+    # The scaling factor in Phase 2 ensures continuity at K = K_threshold
     for i in range(N_PLAYERS):
         if st.K[i] < params.K_threshold:
             # Diminishing returns phase
             dK[i] = params.alpha * ctrl.aX[i] / (1.0 + params.beta_dim * st.K[i])
         else:
-            # Recursive self-improvement phase (exponential growth)
-            dK[i] = params.alpha * ctrl.aX[i] * st.K[i]
+            # Recursive self-improvement phase (exponential growth, scaled for continuity)
+            scale_factor = 1.0 / (params.K_threshold * (1.0 + params.beta_dim * params.K_threshold))
+            dK[i] = params.alpha * ctrl.aX[i] * st.K[i] * scale_factor
 
     # --- Safety dynamics
     # dS_i/dt = gamma * aS_i + eta * T * avg_other_S_i
@@ -360,12 +362,13 @@ def compute_next_state_single_step(
     dK = np.zeros(N_PLAYERS)
     dS = np.zeros(N_PLAYERS)
 
-    # Capability dynamics
+    # Capability dynamics (with continuity at threshold)
     for i in range(N_PLAYERS):
         if state.K[i] < params.K_threshold:
             dK[i] = params.alpha * controls.aX[i] / (1.0 + params.beta_dim * state.K[i])
         else:
-            dK[i] = params.alpha * controls.aX[i] * state.K[i]
+            scale_factor = 1.0 / (params.K_threshold * (1.0 + params.beta_dim * params.K_threshold))
+            dK[i] = params.alpha * controls.aX[i] * state.K[i] * scale_factor
 
     # Safety dynamics
     S_sum = np.sum(state.S)
@@ -543,7 +546,13 @@ if __name__ == "__main__":
         # --- Initial conditions:
         # Let's say everyone starts modest on capability, low-ish safety,
         # and almost no trust.
-        K0 = np.array([12.0, 9.0, 7.0])   # starting capability levels
+        # starting capability levels
+        K0_US = 5e26  # Grok 4
+        K0 = np.array([
+            K0_US,
+            1.5e25,   # Qwen 3 Max
+            1.8e24, # Mistral Large 2
+        ]) / K0_US
         S0 = np.array([0.2, 0.12, 0.15])   # starting safety levels
         T0 = 0.1                         # low verification regime
         y0 = np.concatenate([K0, S0, [T0]])
@@ -561,7 +570,7 @@ if __name__ == "__main__":
         policy_fn = best_response_policy_builder(
             params=params,
             dt=0.1,
-            max_iterations=3,  # Reduced for speed
+            max_iterations=4,  # Reduced for speed
             budget_constraint=True,  # Enforce aX + aS + aV <= 1
         )
     else:
