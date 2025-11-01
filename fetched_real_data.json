@@ -1,0 +1,4125 @@
+{
+  "fetch_timestamp": "2025-11-01T17:37:49.615096",
+  "sources": [
+    "Epoch AI",
+    "arXiv",
+    "GitHub",
+    "World Bank"
+  ],
+  "epoch_models": [
+    {
+      "name": "",
+      "date": "2025-10-10",
+      "training_compute_flop": 6.000001e+24,
+      "organization": "Ant Group",
+      "parameters": 1000000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-09-30",
+      "training_compute_flop": 4.42e+24,
+      "organization": "Zhipu AI,Tsinghua University",
+      "parameters": 357000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-09-22",
+      "training_compute_flop": 3.6e+22,
+      "organization": "Alibaba",
+      "parameters": 35300000000.0,
+      "domain": "Multimodal,Language,Vision,Speech,Video"
+    },
+    {
+      "name": "",
+      "date": "2025-09-16",
+      "training_compute_flop": 6.5367e+23,
+      "organization": "Alibaba",
+      "parameters": 30000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-09-05",
+      "training_compute_flop": 1.512e+25,
+      "organization": "Alibaba",
+      "parameters": 1000000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-09-01",
+      "training_compute_flop": 3.726e+24,
+      "organization": "Meituan Inc",
+      "parameters": 560000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-08-07",
+      "training_compute_flop": 6.6e+25,
+      "organization": "OpenAI",
+      "parameters": null,
+      "domain": "Multimodal,Language,Vision"
+    },
+    {
+      "name": "",
+      "date": "2025-08-05",
+      "training_compute_flop": 4.94e+24,
+      "organization": "OpenAI",
+      "parameters": 116830000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-08-05",
+      "training_compute_flop": 5.49e+23,
+      "organization": "OpenAI",
+      "parameters": 20910000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-08-05",
+      "training_compute_flop": 4.42e+24,
+      "organization": "Zhipu AI,Tsinghua University",
+      "parameters": 355000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-07-22",
+      "training_compute_flop": 1.575e+24,
+      "organization": "Alibaba",
+      "parameters": 480000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-07-15",
+      "training_compute_flop": 2.69000000000001e+24,
+      "organization": "LG AI Research",
+      "parameters": 32000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-07-11",
+      "training_compute_flop": 2.976e+24,
+      "organization": "Moonshot",
+      "parameters": 1000000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-07-09",
+      "training_compute_flop": 5.0000000000001e+26,
+      "organization": "xAI",
+      "parameters": null,
+      "domain": "Language,Multimodal,Vision"
+    },
+    {
+      "name": "",
+      "date": "2025-07-06",
+      "training_compute_flop": 1.2164856e+24,
+      "organization": "Rednote",
+      "parameters": 142000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-06-12",
+      "training_compute_flop": 9.618950880000001e+21,
+      "organization": "Google DeepMind",
+      "parameters": 720000000.0,
+      "domain": "Earth science"
+    },
+    {
+      "name": "",
+      "date": "2025-05-11",
+      "training_compute_flop": 1.388556e+24,
+      "organization": "ByteDance",
+      "parameters": null,
+      "domain": "Vision,Language,Multimodal,Video"
+    },
+    {
+      "name": "",
+      "date": "2025-04-29",
+      "training_compute_flop": 4.752e+24,
+      "organization": "Alibaba",
+      "parameters": 235000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-04-10",
+      "training_compute_flop": 1.0692e+25,
+      "organization": "Huawei",
+      "parameters": 135000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-04-05",
+      "training_compute_flop": 4.08e+24,
+      "organization": "Meta AI",
+      "parameters": 109000000000.0,
+      "domain": "Multimodal,Language,Vision"
+    },
+    {
+      "name": "",
+      "date": "2025-04-05",
+      "training_compute_flop": 2.244000000001e+24,
+      "organization": "Meta AI",
+      "parameters": 400000000000.0,
+      "domain": "Multimodal,Language,Vision"
+    },
+    {
+      "name": "",
+      "date": "2025-04-05",
+      "training_compute_flop": 5.18400000000001e+25,
+      "organization": "Meta AI",
+      "parameters": 2000000000000.0,
+      "domain": "Multimodal,Language,Vision"
+    },
+    {
+      "name": "",
+      "date": "2025-03-16",
+      "training_compute_flop": 1.26e+24,
+      "organization": "LG AI Research",
+      "parameters": 32000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-03-06",
+      "training_compute_flop": 3.51e+24,
+      "organization": "Alibaba",
+      "parameters": 32500000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2025-02-27",
+      "training_compute_flop": 2.1000001e+26,
+      "organization": "OpenAI",
+      "parameters": null,
+      "domain": "Language,Vision,Multimodal"
+    },
+    {
+      "name": "",
+      "date": "2025-02-24",
+      "training_compute_flop": 3.35e+25,
+      "organization": "Anthropic",
+      "parameters": null,
+      "domain": "Language,Vision,Multimodal"
+    },
+    {
+      "name": "",
+      "date": "2025-02-17",
+      "training_compute_flop": 3.5e+26,
+      "organization": "xAI",
+      "parameters": null,
+      "domain": "Language,Vision,Multimodal"
+    },
+    {
+      "name": "",
+      "date": "2025-01-20",
+      "training_compute_flop": 4.7156e+22,
+      "organization": "NVIDIA,Nanjing University,Tsinghua University,Hong Kong Polytechnic University,Johns Hopkins University,New York University (NYU)",
+      "parameters": 8930000000.0,
+      "domain": "Vision,Robotics,Language"
+    },
+    {
+      "name": "",
+      "date": "2025-01-20",
+      "training_compute_flop": 4.020010000000001e+24,
+      "organization": "DeepSeek",
+      "parameters": 671000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-12-24",
+      "training_compute_flop": 3.4078e+24,
+      "organization": "DeepSeek",
+      "parameters": 671000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-12-09",
+      "training_compute_flop": 1.25e+24,
+      "organization": "LG AI Research",
+      "parameters": 32000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-12-06",
+      "training_compute_flop": 6.8649768e+24,
+      "organization": "Meta AI",
+      "parameters": 70000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-12-03",
+      "training_compute_flop": 6.000010000000001e+24,
+      "organization": "Amazon",
+      "parameters": null,
+      "domain": "Multimodal,Language,Video,Vision"
+    },
+    {
+      "name": "",
+      "date": "2024-11-06",
+      "training_compute_flop": 3.49237e+24,
+      "organization": "Tencent",
+      "parameters": 389000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-10-28",
+      "training_compute_flop": 2.505e+25,
+      "organization": "ByteDance",
+      "parameters": 500000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-10-22",
+      "training_compute_flop": 3.0398181e+24,
+      "organization": "NVIDIA",
+      "parameters": 72000000000.0,
+      "domain": "Vision,Language"
+    },
+    {
+      "name": "",
+      "date": "2024-10-22",
+      "training_compute_flop": 3.02e+24,
+      "organization": "NVIDIA",
+      "parameters": 72000000000.0,
+      "domain": "Vision,Language"
+    },
+    {
+      "name": "",
+      "date": "2024-10-22",
+      "training_compute_flop": 3.02e+24,
+      "organization": "NVIDIA",
+      "parameters": 72000000000.0,
+      "domain": "Vision,Language"
+    },
+    {
+      "name": "",
+      "date": "2024-10-18",
+      "training_compute_flop": 1.5e+24,
+      "organization": "01.AI",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-10-15",
+      "training_compute_flop": 7.7605724e+21,
+      "organization": "Chai discovery",
+      "parameters": null,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2024-10-10",
+      "training_compute_flop": 4.06e+22,
+      "organization": "Tsinghua University",
+      "parameters": 1200000000.0,
+      "domain": "Robotics"
+    },
+    {
+      "name": "",
+      "date": "2024-10-04",
+      "training_compute_flop": 1.65e+24,
+      "organization": "Meta AI",
+      "parameters": 30000000000.0,
+      "domain": "Video,Vision"
+    },
+    {
+      "name": "",
+      "date": "2024-09-24",
+      "training_compute_flop": 5.79e+23,
+      "organization": "Meta AI",
+      "parameters": 10600000000.0,
+      "domain": "Multimodal,Vision,Language"
+    },
+    {
+      "name": "",
+      "date": "2024-09-20",
+      "training_compute_flop": 6.9e+24,
+      "organization": "China Telecom",
+      "parameters": 115000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-09-19",
+      "training_compute_flop": 7.8e+24,
+      "organization": "Alibaba",
+      "parameters": 72700000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-09-19",
+      "training_compute_flop": 7.8516e+24,
+      "organization": "Alibaba",
+      "parameters": 72700000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-09-17",
+      "training_compute_flop": 3.51e+24,
+      "organization": "Alibaba",
+      "parameters": 32500000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-09-06",
+      "training_compute_flop": 1.7892e+24,
+      "organization": "DeepSeek",
+      "parameters": 236000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-08-13",
+      "training_compute_flop": 2.96e+25,
+      "organization": "xAI",
+      "parameters": null,
+      "domain": "Language,Vision,Multimodal"
+    },
+    {
+      "name": "",
+      "date": "2024-08-06",
+      "training_compute_flop": 3.036551985824e+24,
+      "organization": "ByteDance,Nanyang Technological University,Chinese University of Hong Kong (CUHK),Hong Kong University of Science and Technology (HKUST)",
+      "parameters": 72000000000.0,
+      "domain": "Multimodal,Vision,Language,Video"
+    },
+    {
+      "name": "",
+      "date": "2024-07-29",
+      "training_compute_flop": 4.3e+24,
+      "organization": "Apple",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-07-29",
+      "training_compute_flop": 4.5126e+23,
+      "organization": "Apple",
+      "parameters": 2730000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-07-24",
+      "training_compute_flop": 2.13e+25,
+      "organization": "Mistral AI",
+      "parameters": 123000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-07-23",
+      "training_compute_flop": 3.8e+25,
+      "organization": "Meta AI",
+      "parameters": 405000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-06-25",
+      "training_compute_flop": 1.07e+24,
+      "organization": "EvolutionaryScale,University of California (UC) Berkeley",
+      "parameters": 98500000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2024-06-20",
+      "training_compute_flop": 2.700000000000001e+25,
+      "organization": "Anthropic",
+      "parameters": null,
+      "domain": "Multimodal,Language,Vision"
+    },
+    {
+      "name": "",
+      "date": "2024-06-17",
+      "training_compute_flop": 1.2852e+24,
+      "organization": "DeepSeek",
+      "parameters": 236000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-06-14",
+      "training_compute_flop": 1.8e+25,
+      "organization": "NVIDIA",
+      "parameters": 340000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-06-13",
+      "training_compute_flop": 1.1e+23,
+      "organization": "Stanford University,University of California (UC) Berkeley,Toyota Research Institute,Google DeepMind,Massachusetts Institute of Technology (MIT),Physical Intelligence",
+      "parameters": 7188100000.0,
+      "domain": "Robotics,Vision,Language"
+    },
+    {
+      "name": "",
+      "date": "2024-06-12",
+      "training_compute_flop": 7.929e+24,
+      "organization": "NVIDIA,Meta AI",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-06-07",
+      "training_compute_flop": 3.02e+24,
+      "organization": "Alibaba",
+      "parameters": 72710000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-05-21",
+      "training_compute_flop": 1.062e+24,
+      "organization": "Saudi Data and Artificial Intelligence Authority",
+      "parameters": 70000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-05-21",
+      "training_compute_flop": 9.04e+22,
+      "organization": "Saudi Data and Artificial Intelligence Authority",
+      "parameters": 7000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-05-20",
+      "training_compute_flop": 5.85e+20,
+      "organization": "University of California (UC) Berkeley,Stanford University,Carnegie Mellon University (CMU),DeepMind",
+      "parameters": 93000000.0,
+      "domain": "Robotics"
+    },
+    {
+      "name": "",
+      "date": "2024-05-13",
+      "training_compute_flop": 1.8e+24,
+      "organization": "01.AI",
+      "parameters": 100000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-05-08",
+      "training_compute_flop": 4.1405645e+22,
+      "organization": "Google DeepMind,Isomorphic Labs",
+      "parameters": null,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2024-05-03",
+      "training_compute_flop": 2.3003136e+21,
+      "organization": "NVIDIA,Massachusetts Institute of Technology (MIT)",
+      "parameters": 13493916736.0,
+      "domain": "Multimodal,Language,Vision,Video"
+    },
+    {
+      "name": "",
+      "date": "2024-05-01",
+      "training_compute_flop": 8.169984e+20,
+      "organization": "Google DeepMind",
+      "parameters": null,
+      "domain": "Earth science"
+    },
+    {
+      "name": "",
+      "date": "2024-04-18",
+      "training_compute_flop": 7.861e+24,
+      "organization": "Meta AI",
+      "parameters": 70000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-04-15",
+      "training_compute_flop": 8.400010000000001e+24,
+      "organization": "Reka AI",
+      "parameters": 67000000000.0,
+      "domain": "Multimodal,Language,Vision,Video,Speech"
+    },
+    {
+      "name": "",
+      "date": "2024-03-27",
+      "training_compute_flop": 2.6e+24,
+      "organization": "Databricks",
+      "parameters": 132000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-03-14",
+      "training_compute_flop": 4.86e+23,
+      "organization": "Apple",
+      "parameters": 30000000000.0,
+      "domain": "Multimodal,Language,Vision"
+    },
+    {
+      "name": "",
+      "date": "2024-03-07",
+      "training_compute_flop": 8.000001e+24,
+      "organization": "Inflection AI",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-03-04",
+      "training_compute_flop": 1.05e+25,
+      "organization": "Saudi Aramco",
+      "parameters": 250000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-02-26",
+      "training_compute_flop": 1.12e+25,
+      "organization": "Mistral AI",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-02-23",
+      "training_compute_flop": 3.9e+24,
+      "organization": "ByteDance,Peking University",
+      "parameters": 530000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2024-02-22",
+      "training_compute_flop": 5.0000000000000004e+22,
+      "organization": "Stability AI",
+      "parameters": 8000000000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2024-02-04",
+      "training_compute_flop": 1.3e+24,
+      "organization": "Alibaba",
+      "parameters": 72000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-12-21",
+      "training_compute_flop": 2.5562e+23,
+      "organization": "rinna",
+      "parameters": 14200000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-12-14",
+      "training_compute_flop": 3.87e+23,
+      "organization": "Google DeepMind",
+      "parameters": 15000000000.0,
+      "domain": "Language,Search"
+    },
+    {
+      "name": "",
+      "date": "2023-12-14",
+      "training_compute_flop": 6.707e+22,
+      "organization": "Tsinghua University,Zhipu AI",
+      "parameters": 18000000000.0,
+      "domain": "Vision,Language"
+    },
+    {
+      "name": "",
+      "date": "2023-12-12",
+      "training_compute_flop": 2.3003136e+21,
+      "organization": "NVIDIA,Massachusetts Institute of Technology (MIT)",
+      "parameters": 13350839296.0,
+      "domain": "Multimodal,Language,Vision"
+    },
+    {
+      "name": "",
+      "date": "2023-12-11",
+      "training_compute_flop": 7.74e+23,
+      "organization": "Mistral AI",
+      "parameters": 46700000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-12-07",
+      "training_compute_flop": 1.6e+23,
+      "organization": "Meta AI",
+      "parameters": 7000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-12-06",
+      "training_compute_flop": 5.0000000001e+25,
+      "organization": "Google DeepMind",
+      "parameters": null,
+      "domain": "Multimodal,Language,Vision"
+    },
+    {
+      "name": "",
+      "date": "2023-11-30",
+      "training_compute_flop": 1.3e+24,
+      "organization": "Alibaba",
+      "parameters": 72000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-11-22",
+      "training_compute_flop": 1.001e+25,
+      "organization": "Inflection AI",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-11-15",
+      "training_compute_flop": 1.8e+23,
+      "organization": "NVIDIA",
+      "parameters": 8000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-11-14",
+      "training_compute_flop": 2.1000000000000002e+22,
+      "organization": "Google DeepMind",
+      "parameters": null,
+      "domain": "Earth science"
+    },
+    {
+      "name": "",
+      "date": "2023-11-13",
+      "training_compute_flop": 4.56e+22,
+      "organization": "Korea University,Korea Advanced Institute of Science and Technology (KAIST),LG",
+      "parameters": 13000000000.0,
+      "domain": "Language,Multimodal,Vision"
+    },
+    {
+      "name": "",
+      "date": "2023-11-13",
+      "training_compute_flop": 3.04e+22,
+      "organization": "Shanghai AI Lab,Chinese University of Hong Kong (CUHK),ShanghaiTech University",
+      "parameters": 19900000000.0,
+      "domain": "Vision,Language,Multimodal"
+    },
+    {
+      "name": "",
+      "date": "2023-11-08",
+      "training_compute_flop": 2.6e+19,
+      "organization": "Meta AI,Hebrew University of Jerusalem,LORIA",
+      "parameters": null,
+      "domain": "Audio,Speech"
+    },
+    {
+      "name": "",
+      "date": "2023-11-06",
+      "training_compute_flop": 6.331e+22,
+      "organization": "Tsinghua University,Zhipu AI,Beihang University",
+      "parameters": 17000000000.0,
+      "domain": "Multimodal,Vision,Language"
+    },
+    {
+      "name": "",
+      "date": "2023-11-05",
+      "training_compute_flop": 7.807e+22,
+      "organization": "University of Wisconsin Madison,Microsoft Research",
+      "parameters": 13000000000.0,
+      "domain": "Multimodal,Language,Vision"
+    },
+    {
+      "name": "",
+      "date": "2023-11-04",
+      "training_compute_flop": 2.90000000001e+24,
+      "organization": "xAI",
+      "parameters": 314000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-11-02",
+      "training_compute_flop": 6.1e+23,
+      "organization": "01.AI",
+      "parameters": 34000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-10-30",
+      "training_compute_flop": 2.5e+23,
+      "organization": "Kunlun Inc.",
+      "parameters": 13000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-10-27",
+      "training_compute_flop": 5.04e+22,
+      "organization": "Zhipu AI",
+      "parameters": 6000000000.0,
+      "domain": "Multimodal,Language,Vision"
+    },
+    {
+      "name": "",
+      "date": "2023-10-26",
+      "training_compute_flop": 7.92e+18,
+      "organization": "Microsoft,Microsoft Research",
+      "parameters": 75000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-10-09",
+      "training_compute_flop": 2.14e+20,
+      "organization": "University of Washington,Seoul National University,University of Sheffield",
+      "parameters": null,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2023-10-07",
+      "training_compute_flop": 1.6e+23,
+      "organization": "University of California Los Angeles (UCLA),Columbia University,New York University (NYU)",
+      "parameters": 13000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-09-28",
+      "training_compute_flop": 4.8e+24,
+      "organization": "Amazon",
+      "parameters": 200000000000.0,
+      "domain": "Language,Image generation"
+    },
+    {
+      "name": "",
+      "date": "2023-09-06",
+      "training_compute_flop": 3.76e+24,
+      "organization": "Technology Innovation Institute",
+      "parameters": 180000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-08-30",
+      "training_compute_flop": 5.337e+16,
+      "organization": "Intel Labs",
+      "parameters": 56804.0,
+      "domain": "Robotics"
+    },
+    {
+      "name": "",
+      "date": "2023-08-29",
+      "training_compute_flop": 4.8946763e+22,
+      "organization": "Cerebras Systems,Mohamed bin Zayed University of Artificial Intelligence (MBZUAI),Inception G42",
+      "parameters": 13000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-08-28",
+      "training_compute_flop": 4.9e+16,
+      "organization": "Carnegie Mellon University (CMU)",
+      "parameters": null,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2023-08-05",
+      "training_compute_flop": 7.56e+21,
+      "organization": "Westlake University,Tsinghua University,Toyota Technological Institute at Chicago",
+      "parameters": null,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2023-07-26",
+      "training_compute_flop": 3.9e+18,
+      "organization": "Google Research",
+      "parameters": 1500000000.0,
+      "domain": "Audio"
+    },
+    {
+      "name": "",
+      "date": "2023-07-18",
+      "training_compute_flop": 8.1e+23,
+      "organization": "Meta AI",
+      "parameters": 70000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-07-18",
+      "training_compute_flop": 8.4e+22,
+      "organization": "Meta AI",
+      "parameters": 7000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-07-11",
+      "training_compute_flop": 3.866e+24,
+      "organization": "Anthropic",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-07-06",
+      "training_compute_flop": 6.2e+23,
+      "organization": "Tsinghua University,BioMap Research",
+      "parameters": 100000000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2023-07-06",
+      "training_compute_flop": 9.984e+23,
+      "organization": "Shanghai AI Lab,SenseTime",
+      "parameters": 104000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-07-05",
+      "training_compute_flop": 3.98e+22,
+      "organization": "Huawei",
+      "parameters": 256000000.0,
+      "domain": "Earth science"
+    },
+    {
+      "name": "",
+      "date": "2023-06-27",
+      "training_compute_flop": 1.811e+21,
+      "organization": "Stanford University,Harvard University,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),University of Montreal / Universit\u00e9 de Montr\u00e9al",
+      "parameters": 6600000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2023-05-29",
+      "training_compute_flop": 5.6e+23,
+      "organization": "Google Research",
+      "parameters": 55000000000.0,
+      "domain": "Multimodal,Language,Vision,Video"
+    },
+    {
+      "name": "",
+      "date": "2023-05-18",
+      "training_compute_flop": 1.8e+20,
+      "organization": "Alibaba,Huazhong University of Science and Technology",
+      "parameters": 4000000000.0,
+      "domain": "Multimodal,Vision,Speech,Language"
+    },
+    {
+      "name": "",
+      "date": "2023-05-11",
+      "training_compute_flop": 1.94e+20,
+      "organization": "Salesforce Research,Hong Kong University of Science and Technology (HKUST),Nanyang Technological University",
+      "parameters": 13000000000.0,
+      "domain": "Multimodal,Language,Vision"
+    },
+    {
+      "name": "",
+      "date": "2023-05-10",
+      "training_compute_flop": 7.34e+24,
+      "organization": "Google",
+      "parameters": 340000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-05-09",
+      "training_compute_flop": 8.46e+22,
+      "organization": "Hugging Face,ServiceNow,Northeastern University,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),Carnegie Mellon University (CMU),Johns Hopkins University,Leipzig University,ScaDS.AI,Queen Mary University of London,Roblox,Sea AI Lab,Technion - Israel Institute of Technology,Monash University,CSIRO,Data61,McGill University,Saama,University of British Columbia (UBC),Massachusetts Institute of Technology (MIT),Technical University of Munich,IBM,University of Vermont,UnfoldML,SAP,University of Notre Dame,Columbia University,New York University (NYU),University of Allahabad,Discover Dollar,Toloka,Telefonica,Stanford University,Weizmann Institute of Science,Alan Turing Institute,Wellesley College,EleutherAI,Forschungszentrum Julich",
+      "parameters": 15500000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-04-17",
+      "training_compute_flop": 7.8049e+22,
+      "organization": "University of Wisconsin Madison,Microsoft Research,Columbia University",
+      "parameters": 13000000000.0,
+      "domain": "Multimodal,Vision,Language"
+    },
+    {
+      "name": "",
+      "date": "2023-04-14",
+      "training_compute_flop": 7.41851136e+21,
+      "organization": "Facebook AI Research,INRIA",
+      "parameters": 1140000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2023-04-09",
+      "training_compute_flop": 3.00001e+21,
+      "organization": "Facebook AI Research,University of Washington,University of California (UC) Berkeley,Carnegie Mellon University (CMU),Toyota Technological Institute at Chicago",
+      "parameters": 6700000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-04-05",
+      "training_compute_flop": 7.8e+21,
+      "organization": "Meta AI",
+      "parameters": 636000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2023-03-30",
+      "training_compute_flop": 2.36e+23,
+      "organization": "Bloomberg,Johns Hopkins University",
+      "parameters": 50558868480.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-03-29",
+      "training_compute_flop": 9.7e+21,
+      "organization": "Nanjing University,Shenzhen Institute of Advanced Technology,Shanghai AI Lab",
+      "parameters": 1000000000.0,
+      "domain": "Video"
+    },
+    {
+      "name": "",
+      "date": "2023-03-27",
+      "training_compute_flop": 4.9467301e+21,
+      "organization": "Google DeepMind",
+      "parameters": 400000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2023-03-20",
+      "training_compute_flop": 4.67e+23,
+      "organization": "Huawei Noah's Ark Lab",
+      "parameters": 1085000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-03-15",
+      "training_compute_flop": 2.1e+25,
+      "organization": "OpenAI",
+      "parameters": 1800000000000.0,
+      "domain": "Multimodal,Language,Vision"
+    },
+    {
+      "name": "",
+      "date": "2023-03-15",
+      "training_compute_flop": 2.4e+23,
+      "organization": "Technology Innovation Institute",
+      "parameters": 40000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-03-05",
+      "training_compute_flop": 9.5e+21,
+      "organization": "Meta AI,Hebrew University of Jerusalem",
+      "parameters": 1000000000.0,
+      "domain": "Audio"
+    },
+    {
+      "name": "",
+      "date": "2023-03-02",
+      "training_compute_flop": 6e+20,
+      "organization": "New York University (NYU),University of California (UC) Berkeley",
+      "parameters": 675000000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2023-02-24",
+      "training_compute_flop": 5.5e+23,
+      "organization": "Meta AI",
+      "parameters": 65200000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2023-02-10",
+      "training_compute_flop": 1.93248e+23,
+      "organization": "Google",
+      "parameters": 21743000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2023-01-30",
+      "training_compute_flop": 1.20000000001e+21,
+      "organization": "Salesforce Research",
+      "parameters": 1480000000.0,
+      "domain": "Vision,Language"
+    },
+    {
+      "name": "",
+      "date": "2023-01-27",
+      "training_compute_flop": 3.5e+20,
+      "organization": "Utrecht University",
+      "parameters": 295000000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2023-01-16",
+      "training_compute_flop": 6.5e+21,
+      "organization": "Technical University of Munich,Columbia University",
+      "parameters": 1900000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2023-01-15",
+      "training_compute_flop": 8.08e+21,
+      "organization": "NVIDIA,Technical University of Munich,InstaDeep",
+      "parameters": 2500000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2023-01-10",
+      "training_compute_flop": 2.2032e+20,
+      "organization": "DeepMind,University of Toronto",
+      "parameters": 200000000.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2023-01-05",
+      "training_compute_flop": 1.01e+19,
+      "organization": "Microsoft",
+      "parameters": 353000000.0,
+      "domain": "Audio,Speech"
+    },
+    {
+      "name": "",
+      "date": "2022-12-28",
+      "training_compute_flop": 6.48e+21,
+      "organization": "Stanford University,University at Buffalo",
+      "parameters": 2700000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-12-19",
+      "training_compute_flop": 2.9e+19,
+      "organization": "University of Oxford",
+      "parameters": 86000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2022-12-04",
+      "training_compute_flop": 7.76e+22,
+      "organization": "Wuhan University,JD Explore Academy,Shanghai AI Lab,Nanyang Technological University,Washington University in St Louis,Chongqing University of Posts and Telecommunications,University of Sydney",
+      "parameters": 6000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-11-28",
+      "training_compute_flop": 2.578e+24,
+      "organization": "OpenAI",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-11-28",
+      "training_compute_flop": 2.1570000001e+20,
+      "organization": "Korea Advanced Institute of Science and Technology (KAIST),NAVER",
+      "parameters": null,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2022-11-20",
+      "training_compute_flop": 5.1e+20,
+      "organization": "Alibaba,University of Waterloo,Vector Institute",
+      "parameters": 1500000000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2022-11-18",
+      "training_compute_flop": 1.3e+20,
+      "organization": "Samsung",
+      "parameters": 330000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-11-16",
+      "training_compute_flop": 3.24e+23,
+      "organization": "Meta AI",
+      "parameters": 120000000000.0,
+      "domain": "Language,Biology"
+    },
+    {
+      "name": "",
+      "date": "2022-11-14",
+      "training_compute_flop": 1.501e+22,
+      "organization": "Beijing Academy of Artificial Intelligence / BAAI,Huazhong University of Science and Technology,Zhejiang University (ZJU),Beijing Institute of Technology",
+      "parameters": 1011000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2022-11-10",
+      "training_compute_flop": 2.408e+21,
+      "organization": "Shanghai AI Lab,Tsinghua University,Nanjing University,SenseTime,Chinese University of Hong Kong (CUHK)",
+      "parameters": 1080000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2022-11-03",
+      "training_compute_flop": 1.4e+17,
+      "organization": "DeepMind",
+      "parameters": 35000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-11-02",
+      "training_compute_flop": 5.46e+19,
+      "organization": "NVIDIA",
+      "parameters": 9100000000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2022-10-20",
+      "training_compute_flop": 2.53e+24,
+      "organization": "Google",
+      "parameters": 540000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-10-20",
+      "training_compute_flop": 2.540000000001e+24,
+      "organization": "Google",
+      "parameters": 540000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-10-11",
+      "training_compute_flop": 1.42e+21,
+      "organization": "University of Chicago,NVIDIA,Harvard University,Cerebras Systems,Technical University of Munich,California Institute of Technology",
+      "parameters": 25000000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2022-10-05",
+      "training_compute_flop": 7.1414784e+20,
+      "organization": "DeepMind",
+      "parameters": null,
+      "domain": "Other,Games,Mathematics"
+    },
+    {
+      "name": "",
+      "date": "2022-10-04",
+      "training_compute_flop": 7.2e+19,
+      "organization": "Massachusetts Institute of Technology (MIT)",
+      "parameters": 20240000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2022-09-21",
+      "training_compute_flop": 4.2072663e+21,
+      "organization": "OpenAI",
+      "parameters": 1550000000.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "2022-09-14",
+      "training_compute_flop": 1.69e+23,
+      "organization": "Google",
+      "parameters": 16900000000.0,
+      "domain": "Language,Vision,Multimodal"
+    },
+    {
+      "name": "",
+      "date": "2022-08-22",
+      "training_compute_flop": 7e+19,
+      "organization": "Microsoft",
+      "parameters": 1900000000.0,
+      "domain": "Multimodal,Vision,Language"
+    },
+    {
+      "name": "",
+      "date": "2022-08-10",
+      "training_compute_flop": 4.3e+23,
+      "organization": "McGill University,Meta AI,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms)",
+      "parameters": 175000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-08-04",
+      "training_compute_flop": 3.5490054945e+23,
+      "organization": "Tsinghua University",
+      "parameters": 130000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-08-02",
+      "training_compute_flop": 2.04374016e+23,
+      "organization": "Amazon",
+      "parameters": 19750000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-07-22",
+      "training_compute_flop": 1.03514112e+22,
+      "organization": "Massachusetts Institute of Technology (MIT),Westlake University",
+      "parameters": 670000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2022-07-21",
+      "training_compute_flop": 7.35000000001e+22,
+      "organization": "Meta AI,New York University (NYU),Stanford University,Massachusetts Institute of Technology (MIT)",
+      "parameters": 15000000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2022-07-11",
+      "training_compute_flop": 3.65664e+23,
+      "organization": "Hugging Face,BigScience",
+      "parameters": 176247271424.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-07-06",
+      "training_compute_flop": 1.751113728e+22,
+      "organization": "Meta AI",
+      "parameters": 54500000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-07-05",
+      "training_compute_flop": 2.72e+21,
+      "organization": "Salesforce",
+      "parameters": 770000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-06-29",
+      "training_compute_flop": 2.7415e+24,
+      "organization": "Google",
+      "parameters": 540350000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-06-27",
+      "training_compute_flop": 1.35e+22,
+      "organization": "Salesforce Research,Columbia University,Johns Hopkins University",
+      "parameters": 6400000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2022-06-22",
+      "training_compute_flop": 5.09607936e+23,
+      "organization": "Google Research",
+      "parameters": 20000000000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2022-06-14",
+      "training_compute_flop": 7.3e+22,
+      "organization": "Google Research",
+      "parameters": 2100000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2022-06-06",
+      "training_compute_flop": 3.31776e+18,
+      "organization": "Tsinghua University,Apple,Westlake University,Chinese University of Hong Kong (CUHK)",
+      "parameters": 750000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-05-27",
+      "training_compute_flop": 7.24e+21,
+      "organization": "University of Oxford,Harvard Medical School,Cohere",
+      "parameters": 700000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2022-05-27",
+      "training_compute_flop": 8.9280922e+20,
+      "organization": "Stanford University,University at Buffalo",
+      "parameters": 355000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-05-23",
+      "training_compute_flop": 1.46e+22,
+      "organization": "Google Brain",
+      "parameters": 7762000000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2022-05-12",
+      "training_compute_flop": 4.02e+21,
+      "organization": "DeepMind",
+      "parameters": 1180000000.0,
+      "domain": "Multimodal,Robotics,Games,Language"
+    },
+    {
+      "name": "",
+      "date": "2022-05-10",
+      "training_compute_flop": 1.2e+23,
+      "organization": "Google Research,Google Brain",
+      "parameters": 20000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-05-02",
+      "training_compute_flop": 4.3e+23,
+      "organization": "Meta AI",
+      "parameters": 175000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-04-29",
+      "training_compute_flop": 2.18972000000001e+23,
+      "organization": "DeepMind",
+      "parameters": 80000000000.0,
+      "domain": "Multimodal,Vision,Language,Video"
+    },
+    {
+      "name": "",
+      "date": "2022-04-14",
+      "training_compute_flop": 5.32224e+20,
+      "organization": "Meta AI",
+      "parameters": 9410000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-04-13",
+      "training_compute_flop": 5.0000000000000004e+22,
+      "organization": "Runway,Ludwig Maximilian University of Munich,Heidelberg University",
+      "parameters": 1450000000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2022-04-07",
+      "training_compute_flop": 1.4e+20,
+      "organization": "Waseda University",
+      "parameters": 110000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2022-04-06",
+      "training_compute_flop": 3.3695784e+23,
+      "organization": "OpenAI",
+      "parameters": 3500000000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2022-04-04",
+      "training_compute_flop": 2.5272e+24,
+      "organization": "Google Research",
+      "parameters": 540350000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-03-29",
+      "training_compute_flop": 5.76e+23,
+      "organization": "DeepMind",
+      "parameters": 70000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-03-24",
+      "training_compute_flop": 6.4172851e+21,
+      "organization": "Meta AI",
+      "parameters": 4000000000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2022-03-21",
+      "training_compute_flop": 2.65e+19,
+      "organization": "Microsoft Research,University of Waterloo",
+      "parameters": 256999999.99999997,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-03-10",
+      "training_compute_flop": 3.4e+21,
+      "organization": "University of Washington,Columbia University,Google,Meta AI,Tel Aviv University",
+      "parameters": 1843000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2022-03-02",
+      "training_compute_flop": 1.7901648e+22,
+      "organization": "OpenAI",
+      "parameters": 774000000.0,
+      "domain": "Language,Mathematics"
+    },
+    {
+      "name": "",
+      "date": "2022-02-26",
+      "training_compute_flop": 1.1e+21,
+      "organization": "Carnegie Mellon University (CMU)",
+      "parameters": 2700000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-02-22",
+      "training_compute_flop": 3.4504704e+20,
+      "organization": "NVIDIA,NERSC, Lawrence Berkeley National Laboratory,University of Michigan,Rice University,California Institute of Technology,Purdue University",
+      "parameters": null,
+      "domain": "Earth science"
+    },
+    {
+      "name": "",
+      "date": "2022-02-17",
+      "training_compute_flop": 2.9e+23,
+      "organization": "Google,Google Brain,Google Research",
+      "parameters": 269000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-02-10",
+      "training_compute_flop": 6.5e+19,
+      "organization": "Hebrew University of Jerusalem,Ben-Gurion University of the Negev,Deep Trading",
+      "parameters": 16000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2022-02-10",
+      "training_compute_flop": 3.55e+23,
+      "organization": "Google",
+      "parameters": 137000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-02-09",
+      "training_compute_flop": 9.31627008e+22,
+      "organization": "EleutherAI",
+      "parameters": 20000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-02-07",
+      "training_compute_flop": 1.68e+22,
+      "organization": "DeepMind",
+      "parameters": 7500000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-02-02",
+      "training_compute_flop": 2.38010000000001e+23,
+      "organization": "DeepMind",
+      "parameters": 41100000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-01-27",
+      "training_compute_flop": 3.19181e+23,
+      "organization": "OpenAI",
+      "parameters": 175000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2022-01-07",
+      "training_compute_flop": 2.34399744e+19,
+      "organization": "Meta AI,University of Texas at Austin",
+      "parameters": 88000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-12-23",
+      "training_compute_flop": 1.0421e+24,
+      "organization": "Baidu,Peng Cheng Laboratory",
+      "parameters": 260000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-12-20",
+      "training_compute_flop": 2.25e+22,
+      "organization": "Meta AI,Facebook AI Research",
+      "parameters": 7500000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-12-16",
+      "training_compute_flop": 1.57e+20,
+      "organization": "Meta AI,University College London (UCL),PSL University,Universit\u00e9 Grenoble Alpes",
+      "parameters": 110000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-12-13",
+      "training_compute_flop": 3.6363112434e+23,
+      "organization": "Google",
+      "parameters": 1200000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-12-08",
+      "training_compute_flop": 6.31e+23,
+      "organization": "DeepMind",
+      "parameters": 280000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-12-06",
+      "training_compute_flop": 3.6679273004682866e+22,
+      "organization": "DeepMind",
+      "parameters": null,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2021-11-24",
+      "training_compute_flop": 7.24598784e+21,
+      "organization": "Microsoft Research,Peking University",
+      "parameters": 870000000.0,
+      "domain": "Multimodal,Vision,Image generation,Video,Language"
+    },
+    {
+      "name": "",
+      "date": "2021-11-22",
+      "training_compute_flop": 4.831e+22,
+      "organization": "Microsoft",
+      "parameters": 893000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-11-19",
+      "training_compute_flop": 4.12e+22,
+      "organization": "Google",
+      "parameters": 3070000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-11-18",
+      "training_compute_flop": 1.1e+21,
+      "organization": "Microsoft Research Asia",
+      "parameters": 3000000000.0,
+      "domain": "Vision,Video"
+    },
+    {
+      "name": "",
+      "date": "2021-11-11",
+      "training_compute_flop": 4.6e+20,
+      "organization": "Facebook AI Research",
+      "parameters": 632000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-11-01",
+      "training_compute_flop": 1.05e+19,
+      "organization": "Heidelberg University",
+      "parameters": null,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2021-11-01",
+      "training_compute_flop": 1.56e+21,
+      "organization": "Salesforce,Nanyang Technological University",
+      "parameters": 220000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-10-31",
+      "training_compute_flop": 7.8328627e+19,
+      "organization": "Stanford University",
+      "parameters": 249000000.00000003,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-10-17",
+      "training_compute_flop": 5.2587456e+19,
+      "organization": "Shannon.AI,Nanjing University,Nanyang Technological University,Zhejiang University (ZJU)",
+      "parameters": 274000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-10-12",
+      "training_compute_flop": 3.5380000000001e+23,
+      "organization": "Inspur",
+      "parameters": 245730000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-10-11",
+      "training_compute_flop": 8.586e+23,
+      "organization": "Microsoft,NVIDIA",
+      "parameters": 530000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-10-04",
+      "training_compute_flop": 4.35e+21,
+      "organization": "Google DeepMind,DeepMind",
+      "parameters": null,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2021-09-28",
+      "training_compute_flop": 2.8983951e+22,
+      "organization": "Microsoft",
+      "parameters": 2200000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-09-20",
+      "training_compute_flop": 9.9e+21,
+      "organization": "Baidu",
+      "parameters": 11000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-09-10",
+      "training_compute_flop": 2.0000000001e+23,
+      "organization": "NAVER",
+      "parameters": 204000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-09-06",
+      "training_compute_flop": 2.775e+18,
+      "organization": "Peking University",
+      "parameters": 149697024.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-09-03",
+      "training_compute_flop": 2.047e+24,
+      "organization": "Google Research",
+      "parameters": 137000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-08-17",
+      "training_compute_flop": 3.366e+22,
+      "organization": "Facebook AI Research",
+      "parameters": 10700000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-08-15",
+      "training_compute_flop": 1.07e+20,
+      "organization": "Northeastern University",
+      "parameters": 110000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2021-08-11",
+      "training_compute_flop": 8.016e+20,
+      "organization": "Chinese Academy of Sciences,Wuhan AI Computing Center",
+      "parameters": 3200000000.0,
+      "domain": "Multimodal,Speech,Vision,Language"
+    },
+    {
+      "name": "",
+      "date": "2021-08-11",
+      "training_compute_flop": 3.7e+23,
+      "organization": "AI21 Labs",
+      "parameters": 178000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-08-06",
+      "training_compute_flop": 6.34275e+20,
+      "organization": "Megvii Inc",
+      "parameters": 99100000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-07-29",
+      "training_compute_flop": 1.8e+22,
+      "organization": "Facebook AI Research,INRIA",
+      "parameters": 1300000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-07-27",
+      "training_compute_flop": 5.54e+21,
+      "organization": "Facebook AI Research",
+      "parameters": 1000000000.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "2021-07-27",
+      "training_compute_flop": 2.412e+22,
+      "organization": "DeepMind",
+      "parameters": 3472816.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2021-07-07",
+      "training_compute_flop": 7.344e+22,
+      "organization": "OpenAI",
+      "parameters": 12000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-07-05",
+      "training_compute_flop": 2.25e+22,
+      "organization": "Baidu",
+      "parameters": 10000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-06-28",
+      "training_compute_flop": 8.58e+19,
+      "organization": "Microsoft Research Asia,Soochow University",
+      "parameters": 247000000.00000003,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-06-24",
+      "training_compute_flop": 1.4e+17,
+      "organization": "IBM,Texas A&M",
+      "parameters": 12427904.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2021-06-23",
+      "training_compute_flop": 9.56e+19,
+      "organization": "Google,Google Brain",
+      "parameters": 208000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-06-21",
+      "training_compute_flop": 1.70208e+21,
+      "organization": "NVIDIA,Aalto University",
+      "parameters": 2230000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2021-06-21",
+      "training_compute_flop": 2.42784e+21,
+      "organization": "NVIDIA,Aalto University",
+      "parameters": 1580000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2021-06-11",
+      "training_compute_flop": 7.840125000000001e+19,
+      "organization": "University of California (UC) Berkeley",
+      "parameters": 256000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-06-11",
+      "training_compute_flop": 2.598670000001e+22,
+      "organization": "Google Research",
+      "parameters": 820000000.0,
+      "domain": "Multimodal,Vision,Language"
+    },
+    {
+      "name": "",
+      "date": "2021-06-10",
+      "training_compute_flop": 2.588e+22,
+      "organization": "Microsoft",
+      "parameters": 1500000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-06-09",
+      "training_compute_flop": 1.91e+21,
+      "organization": "Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),McGill University,DeepMind",
+      "parameters": 440000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-06-09",
+      "training_compute_flop": 4.27e+22,
+      "organization": "Google,Google Research,Google Brain",
+      "parameters": 2440000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-06-08",
+      "training_compute_flop": 5.85e+22,
+      "organization": "Google Brain,Google Research",
+      "parameters": 1843000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-05-28",
+      "training_compute_flop": 8.1e+22,
+      "organization": "Google,Google Research",
+      "parameters": 12900000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-05-26",
+      "training_compute_flop": 2.40576e+19,
+      "organization": "Google Cloud,Google Research",
+      "parameters": 90100000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-05-26",
+      "training_compute_flop": 2.68e+22,
+      "organization": "Tsinghua University,Alibaba DAMO Academy",
+      "parameters": 4000000000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2021-05-20",
+      "training_compute_flop": 9.47e+18,
+      "organization": "Peng Cheng Laboratory,University of Texas at Houston",
+      "parameters": 17000000.0,
+      "domain": "Medicine"
+    },
+    {
+      "name": "",
+      "date": "2021-05-11",
+      "training_compute_flop": 6.2e+21,
+      "organization": "OpenAI",
+      "parameters": 559000000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2021-05-04",
+      "training_compute_flop": 1.8704498688e+22,
+      "organization": "Technical University of Munich,Med AI Technology,NVIDIA,Oak Ridge National Laboratory,Google,Seoul National University",
+      "parameters": 3000000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2021-05-04",
+      "training_compute_flop": 3.9e+22,
+      "organization": "Technical University of Munich,NVIDIA,Seoul National University,Google,Oak Ridge National Laboratory,Med AI Technology",
+      "parameters": 420000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2021-04-19",
+      "training_compute_flop": 3.5997696e+22,
+      "organization": "Alibaba",
+      "parameters": 27000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-03-05",
+      "training_compute_flop": 5.5e+21,
+      "organization": "Alibaba",
+      "parameters": 1002700000000.0,
+      "domain": "Multimodal,Language,Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-03-05",
+      "training_compute_flop": 1.449e+22,
+      "organization": "Facebook AI Research",
+      "parameters": 9431810048.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-03-01",
+      "training_compute_flop": 4.79e+22,
+      "organization": "Google Brain,Google AI",
+      "parameters": 480000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-02-24",
+      "training_compute_flop": 2.1173704e+19,
+      "organization": "ASAPP",
+      "parameters": 234000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-02-13",
+      "training_compute_flop": 5.49e+21,
+      "organization": "Facebook AI Research,University of California (UC) Berkeley,New York University (NYU)",
+      "parameters": 100000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2021-02-09",
+      "training_compute_flop": 5.6845152e+18,
+      "organization": "University of Washington,Microsoft Research",
+      "parameters": 2676376.0,
+      "domain": "Earth science"
+    },
+    {
+      "name": "",
+      "date": "2021-01-15",
+      "training_compute_flop": 7.884e+19,
+      "organization": "Meta AI,Sorbonne University",
+      "parameters": 86000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2021-01-11",
+      "training_compute_flop": 8.22e+22,
+      "organization": "Google",
+      "parameters": 1571000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2021-01-05",
+      "training_compute_flop": 4.7e+22,
+      "organization": "OpenAI",
+      "parameters": 12000000000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2021-01-05",
+      "training_compute_flop": 1.05e+22,
+      "organization": "OpenAI",
+      "parameters": 370000000.0,
+      "domain": "Multimodal,Vision,Language,Video"
+    },
+    {
+      "name": "",
+      "date": "2020-12-31",
+      "training_compute_flop": 3.0302798e+19,
+      "organization": "Baidu",
+      "parameters": 247000000.00000003,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-12-25",
+      "training_compute_flop": 5.4e+17,
+      "organization": "Google,National Tsing Hua University",
+      "parameters": 45000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-12-23",
+      "training_compute_flop": 2.09952e+18,
+      "organization": "Korea University,Princeton University",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-12-15",
+      "training_compute_flop": 5.1e+21,
+      "organization": "Facebook AI Research,New York University (NYU)",
+      "parameters": 652400000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2020-12-01",
+      "training_compute_flop": 2.6052e+20,
+      "organization": "Tsinghua University,Beijing Academy of Artificial Intelligence / BAAI",
+      "parameters": 2600000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-11-30",
+      "training_compute_flop": 2.99e+21,
+      "organization": "DeepMind",
+      "parameters": 93000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2020-11-23",
+      "training_compute_flop": 1.66e+21,
+      "organization": "Tsinghua University,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),HEC,CIFAR AI Research,Princeton University,University of Montreal / Universit\u00e9 de Montr\u00e9al",
+      "parameters": 125000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-10-22",
+      "training_compute_flop": 3.87072e+21,
+      "organization": "Facebook",
+      "parameters": 317000000.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "2020-10-22",
+      "training_compute_flop": 4.262e+21,
+      "organization": "Google Brain,Google Research",
+      "parameters": 632000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2020-10-21",
+      "training_compute_flop": 1.42829568e+21,
+      "organization": "deepset,Bayerische Staatsbibliothek Muenchen",
+      "parameters": 335000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-10-20",
+      "training_compute_flop": 8.2e+22,
+      "organization": "Google,Google Research",
+      "parameters": 13000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-10-20",
+      "training_compute_flop": 7.6e+21,
+      "organization": "Google,Google Research,Google Brain",
+      "parameters": 1000000000.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "2020-10-02",
+      "training_compute_flop": 1.8144e+22,
+      "organization": "University of Washington,National Institute of Informatics",
+      "parameters": 483000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-09-01",
+      "training_compute_flop": 9.72e+18,
+      "organization": "University of Illinois Urbana-Champaign (UIUC),Reed College",
+      "parameters": 44000000.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2020-08-06",
+      "training_compute_flop": 2e+20,
+      "organization": "Baidu",
+      "parameters": 340000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-08-03",
+      "training_compute_flop": 3.8016e+18,
+      "organization": "University of Washington,Allen Institute for AI,Facebook AI Research",
+      "parameters": 99000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-06-30",
+      "training_compute_flop": 4.765e+22,
+      "organization": "Google",
+      "parameters": 2300000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-05-28",
+      "training_compute_flop": 3.14e+23,
+      "organization": "OpenAI",
+      "parameters": 174600000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-05-26",
+      "training_compute_flop": 4e+20,
+      "organization": "Facebook",
+      "parameters": 60000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2020-05-02",
+      "training_compute_flop": 1.65e+19,
+      "organization": "Allen Institute for AI,University of Washington",
+      "parameters": 11000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-04-29",
+      "training_compute_flop": 6.237e+20,
+      "organization": "MIT-IBM Watson AI Lab,Massachusetts Institute of Technology (MIT),IBM",
+      "parameters": 7700000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2020-03-24",
+      "training_compute_flop": 9.510912e+18,
+      "organization": "Google",
+      "parameters": 225000000.0,
+      "domain": "Earth science"
+    },
+    {
+      "name": "",
+      "date": "2020-03-23",
+      "training_compute_flop": 3.1e+21,
+      "organization": "Stanford University,Google,Google Brain",
+      "parameters": 335000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-03-17",
+      "training_compute_flop": 1.58e+18,
+      "organization": "University of California (UC) Berkeley",
+      "parameters": 85300000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-03-11",
+      "training_compute_flop": 2.6289761e+19,
+      "organization": "University of California Los Angeles (UCLA),JD.com",
+      "parameters": 151000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-02-21",
+      "training_compute_flop": 7.690547e+18,
+      "organization": "LORIA,University of Lorraine,Facebook AI Research",
+      "parameters": 126000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-02-13",
+      "training_compute_flop": 1.57e+22,
+      "organization": "Microsoft",
+      "parameters": 17000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-02-09",
+      "training_compute_flop": 2.39e+21,
+      "organization": "Toyota Technological Institute at Chicago,Google",
+      "parameters": 235000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-02-08",
+      "training_compute_flop": 2.6990346e+19,
+      "organization": "Carleton University",
+      "parameters": 240000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-01-28",
+      "training_compute_flop": 1.12e+23,
+      "organization": "Google Brain",
+      "parameters": 2600000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2020-01-19",
+      "training_compute_flop": 8.16e+21,
+      "organization": "Google",
+      "parameters": null,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "2020-01-15",
+      "training_compute_flop": 1e+20,
+      "organization": "DeepMind",
+      "parameters": 16340840.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2019-12-19",
+      "training_compute_flop": 7.8e+20,
+      "organization": "Georgia Institute of Technology,Facebook AI Research,Oregon State University,Simon Fraser University",
+      "parameters": null,
+      "domain": "Robotics"
+    },
+    {
+      "name": "",
+      "date": "2019-12-13",
+      "training_compute_flop": 1.3e+22,
+      "organization": "OpenAI",
+      "parameters": 159000000.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2019-12-13",
+      "training_compute_flop": 6.7e+22,
+      "organization": "OpenAI",
+      "parameters": 159000000.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2019-12-05",
+      "training_compute_flop": 1.938e+17,
+      "organization": "Beijing University of Posts and Telecommunications,University of West London",
+      "parameters": 32300000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-12-05",
+      "training_compute_flop": 5.8298782e+16,
+      "organization": "Beijing University of Posts and Telecommunications,University of West London",
+      "parameters": 21300000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-11-27",
+      "training_compute_flop": 1.74276e+18,
+      "organization": "University of Washington,Allen Institute for AI",
+      "parameters": 141000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-11-19",
+      "training_compute_flop": 4.8e+19,
+      "organization": "DeepMind",
+      "parameters": 36864000.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2019-11-11",
+      "training_compute_flop": 2.612e+22,
+      "organization": "Carnegie Mellon University (CMU),Google",
+      "parameters": 480000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2019-11-10",
+      "training_compute_flop": 2.3504093e+19,
+      "organization": "Allen Institute for AI,Facebook AI Research",
+      "parameters": 209000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-11-10",
+      "training_compute_flop": 8.3e+20,
+      "organization": "Facebook,INRIA,Sorbonne University",
+      "parameters": 335000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-11-05",
+      "training_compute_flop": 2.076e+22,
+      "organization": "Facebook AI",
+      "parameters": 550000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-11-01",
+      "training_compute_flop": 3.05292e+19,
+      "organization": "Stanford University,Facebook AI Research",
+      "parameters": 247000000.00000003,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-10-30",
+      "training_compute_flop": 1.0773400001e+23,
+      "organization": "DeepMind",
+      "parameters": 139000000.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2019-10-23",
+      "training_compute_flop": 3.3e+22,
+      "organization": "Google",
+      "parameters": 11000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-10-23",
+      "training_compute_flop": 9.0000000001e+21,
+      "organization": "Google",
+      "parameters": 2800000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-10-02",
+      "training_compute_flop": 1.24416e+19,
+      "organization": "Hugging Face",
+      "parameters": 66000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-10-02",
+      "training_compute_flop": 8.89344e+17,
+      "organization": "Facebook AI Research,Brown University",
+      "parameters": 5400000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2019-09-17",
+      "training_compute_flop": 9.1e+21,
+      "organization": "NVIDIA",
+      "parameters": 8300000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-09-17",
+      "training_compute_flop": 1.13e+22,
+      "organization": "NVIDIA",
+      "parameters": 1200000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-09-17",
+      "training_compute_flop": 2.2e+22,
+      "organization": "NVIDIA",
+      "parameters": 3900000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-09-04",
+      "training_compute_flop": 6.37e+17,
+      "organization": "Fraunhofer Heinrich Hertz Institute",
+      "parameters": 28303800.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2019-08-22",
+      "training_compute_flop": 3.8047968e+19,
+      "organization": "Nankai University,University of Washington,Tianjin University,Harvard University",
+      "parameters": null,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2019-07-11",
+      "training_compute_flop": 6.6e+16,
+      "organization": "Facebook AI Research",
+      "parameters": null,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2019-07-01",
+      "training_compute_flop": 8.5067e+21,
+      "organization": "Facebook,University of Washington",
+      "parameters": 355000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-06-10",
+      "training_compute_flop": 3.15e+17,
+      "organization": "University of Texas at Austin",
+      "parameters": 35000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-06-04",
+      "training_compute_flop": 3.7848651e+20,
+      "organization": "Massachusetts Institute of Technology (MIT),University of Illinois Urbana-Champaign (UIUC)",
+      "parameters": 256999999.99999997,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-06-01",
+      "training_compute_flop": 6.19e+21,
+      "organization": "Carnegie Mellon University (CMU),Google Brain",
+      "parameters": 340000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-05-31",
+      "training_compute_flop": 4e+18,
+      "organization": "Facebook AI",
+      "parameters": 100000000000.0,
+      "domain": "Recommendation"
+    },
+    {
+      "name": "",
+      "date": "2019-05-14",
+      "training_compute_flop": 4.08e+17,
+      "organization": "IDIAP",
+      "parameters": 34000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-04-25",
+      "training_compute_flop": 2.208301056e+20,
+      "organization": "OpenAI",
+      "parameters": 2038431744.0,
+      "domain": "Audio"
+    },
+    {
+      "name": "",
+      "date": "2019-04-20",
+      "training_compute_flop": 1.5405e+20,
+      "organization": "Amazon",
+      "parameters": 395000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-04-08",
+      "training_compute_flop": 7.30000001e+17,
+      "organization": "Amazon",
+      "parameters": 23000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-04-04",
+      "training_compute_flop": 2.56e+18,
+      "organization": "Tel Aviv University,Massachusetts Institute of Technology (MIT)",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-03-26",
+      "training_compute_flop": 8.926848e+19,
+      "organization": "Allen Institute for AI",
+      "parameters": 110000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-02-27",
+      "training_compute_flop": 2.32e+19,
+      "organization": "Jane Street",
+      "parameters": 2500000.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2019-02-14",
+      "training_compute_flop": 1.920000000001e+21,
+      "organization": "OpenAI",
+      "parameters": 1500000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2019-02-01",
+      "training_compute_flop": 4.3e+18,
+      "organization": "DeepMind,University of Oxford,Carnegie Mellon University (CMU),Google Brain",
+      "parameters": 764000.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2019-01-09",
+      "training_compute_flop": 3.7832771e+20,
+      "organization": "Carnegie Mellon University (CMU),Google Brain",
+      "parameters": 256999999.99999997,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-12-12",
+      "training_compute_flop": 3.93e+16,
+      "organization": "NVIDIA",
+      "parameters": 26200000.0,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2018-11-15",
+      "training_compute_flop": 2006640000000000.0,
+      "organization": "University of Hyderabad",
+      "parameters": 7200000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-11-12",
+      "training_compute_flop": 5.188e+16,
+      "organization": "Samsung R&D Institute Russia",
+      "parameters": 46000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-11-05",
+      "training_compute_flop": 1.617408e+20,
+      "organization": "Google Brain",
+      "parameters": 4900000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-11-05",
+      "training_compute_flop": 6.84288e+19,
+      "organization": "Google Brain",
+      "parameters": 2900000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-10-15",
+      "training_compute_flop": 2.78e+18,
+      "organization": "Carnegie Mellon University (CMU),Bosch Center for Artificial Intelligence,Intel Labs",
+      "parameters": 180000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-10-11",
+      "training_compute_flop": 2.85e+20,
+      "organization": "Google",
+      "parameters": 340000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-09-28",
+      "training_compute_flop": 4.47e+19,
+      "organization": "Facebook AI Research",
+      "parameters": 247000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-09-24",
+      "training_compute_flop": 982800000000000.0,
+      "organization": "KU Leuven,ESAT - PSI,Apple",
+      "parameters": 2100000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-09-17",
+      "training_compute_flop": 1.1e+19,
+      "organization": "ASAPP,Cornell University,Google,Princeton University",
+      "parameters": 90000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-08-30",
+      "training_compute_flop": 6.66e+17,
+      "organization": "NTT Communication Science Laboratories,Tohoku University",
+      "parameters": 185000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-08-28",
+      "training_compute_flop": 4.7808e+20,
+      "organization": "Facebook AI Research,Google Brain",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-07-10",
+      "training_compute_flop": 4.290048e+17,
+      "organization": "IBM",
+      "parameters": 3320000.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "2018-07-10",
+      "training_compute_flop": 2.46048e+17,
+      "organization": "IBM",
+      "parameters": 77360000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2018-07-03",
+      "training_compute_flop": 3.49e+19,
+      "organization": "DeepMind",
+      "parameters": 126001330.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2018-06-01",
+      "training_compute_flop": 1.7578125e+19,
+      "organization": "OpenAI",
+      "parameters": 117000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-05-22",
+      "training_compute_flop": 7.296e+16,
+      "organization": "University of Manchester,Alan Turing Institute",
+      "parameters": 32000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-05-03",
+      "training_compute_flop": 1.27e+17,
+      "organization": "Columbia University,New York University (NYU),Princeton University",
+      "parameters": 51000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-05-02",
+      "training_compute_flop": 8.74395e+21,
+      "organization": "Facebook",
+      "parameters": 829000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2018-04-08",
+      "training_compute_flop": 1.3416380824e+19,
+      "organization": "University of Washington",
+      "parameters": 56933216.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2018-03-22",
+      "training_compute_flop": 5.9158815e+17,
+      "organization": "Salesforce Research",
+      "parameters": 151000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-02-05",
+      "training_compute_flop": 1.68e+20,
+      "organization": "DeepMind",
+      "parameters": 1600000.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2018-02-01",
+      "training_compute_flop": 6.8866472e+17,
+      "organization": "Salesforce Research",
+      "parameters": 135000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2018-02-01",
+      "training_compute_flop": 3300100000000010.0,
+      "organization": "University of Washington,Allen Institute for AI",
+      "parameters": 94000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2017-12-05",
+      "training_compute_flop": 1.0600000001e+20,
+      "organization": "DeepMind",
+      "parameters": null,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2017-11-10",
+      "training_compute_flop": 3.36e+18,
+      "organization": "Carnegie Mellon University (CMU)",
+      "parameters": 35000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2017-10-31",
+      "training_compute_flop": 3.06e+17,
+      "organization": "Jagiellonian University,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),University of Montreal / Universit\u00e9 de Montr\u00e9al",
+      "parameters": 34000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2017-10-19",
+      "training_compute_flop": 3.4100000001e+20,
+      "organization": "DeepMind",
+      "parameters": null,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2017-10-18",
+      "training_compute_flop": 6.49439910290227e+20,
+      "organization": "DeepMind",
+      "parameters": 46400244.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2017-09-26",
+      "training_compute_flop": 3180000000000000.0,
+      "organization": "NTT Communication Science Laboratories",
+      "parameters": 53000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2017-09-15",
+      "training_compute_flop": 3400000000000000.0,
+      "organization": "Duke University,Microsoft",
+      "parameters": 11100000.000000002,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2017-09-06",
+      "training_compute_flop": 2340000000000000.0,
+      "organization": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "parameters": 26000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2017-08-29",
+      "training_compute_flop": 4.56e+17,
+      "organization": "Ben-Gurion University of the Negev",
+      "parameters": 38000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2017-08-19",
+      "training_compute_flop": 5.51e+20,
+      "organization": "Carnegie Mellon University (CMU)",
+      "parameters": null,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2017-08-14",
+      "training_compute_flop": 1.06e+16,
+      "organization": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "parameters": 19000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2017-08-11",
+      "training_compute_flop": 6.046095222592002e+20,
+      "organization": "OpenAI",
+      "parameters": null,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2017-08-07",
+      "training_compute_flop": 2.065392e+18,
+      "organization": "Facebook AI Research",
+      "parameters": 53000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2017-08-07",
+      "training_compute_flop": 2.97e+17,
+      "organization": "Salesforce Research",
+      "parameters": 33000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2017-07-25",
+      "training_compute_flop": 5.64e+19,
+      "organization": "Meta AI",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2017-07-10",
+      "training_compute_flop": 8.43e+20,
+      "organization": "Google Research,Carnegie Mellon University (CMU)",
+      "parameters": 44654504.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2017-07-07",
+      "training_compute_flop": 5.781024e+17,
+      "organization": "Technical University of Denmark,University of Copenhagen",
+      "parameters": null,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2017-06-12",
+      "training_compute_flop": 7.4245248e+18,
+      "organization": "Google Research,Google Brain",
+      "parameters": 213000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2017-01-23",
+      "training_compute_flop": 9.393905664e+19,
+      "organization": "Jagiellonian University,Google Brain",
+      "parameters": 8700000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2017-01-06",
+      "training_compute_flop": 1.446336e+19,
+      "organization": "University of Alberta,Charles University,Czech Technical University",
+      "parameters": 2500000.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2016-12-23",
+      "training_compute_flop": 1.3079231999999998e+17,
+      "organization": "Max Planck Institute for Intelligent Systems",
+      "parameters": 814464.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2016-12-13",
+      "training_compute_flop": 7.077e+18,
+      "organization": "Carnegie Mellon University (CMU)",
+      "parameters": 44500000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2016-11-17",
+      "training_compute_flop": 6.4e+19,
+      "organization": "Chinese University of Hong Kong (CUHK)",
+      "parameters": 92000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2016-11-16",
+      "training_compute_flop": 1.2e+19,
+      "organization": "University of California San Diego,Facebook",
+      "parameters": 83000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2016-11-05",
+      "training_compute_flop": 2.2e+21,
+      "organization": "Google Brain",
+      "parameters": 37400000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2016-11-05",
+      "training_compute_flop": 1.05e+16,
+      "organization": "Google Brain",
+      "parameters": 54000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2016-11-05",
+      "training_compute_flop": 3.4686144e+18,
+      "organization": "University of Washington,Allen Institute for AI",
+      "parameters": 2600000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2016-11-04",
+      "training_compute_flop": 2.13e+16,
+      "organization": "Salesforce Research,Stanford University",
+      "parameters": 51000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2016-10-28",
+      "training_compute_flop": 1.822e+16,
+      "organization": "Griffith University,University of Iowa,Dezhou University",
+      "parameters": 409536.0,
+      "domain": "Biology"
+    },
+    {
+      "name": "",
+      "date": "2016-10-07",
+      "training_compute_flop": 4.36e+20,
+      "organization": "Google",
+      "parameters": 22855952.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2016-09-26",
+      "training_compute_flop": 7490000000000000.0,
+      "organization": "MetaMind Inc,Salesforce",
+      "parameters": 21000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2016-09-26",
+      "training_compute_flop": 6.620000000001e+21,
+      "organization": "Google",
+      "parameters": 278000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2016-09-17",
+      "training_compute_flop": 2.9741645e+19,
+      "organization": "Microsoft Research Asia",
+      "parameters": null,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2016-06-21",
+      "training_compute_flop": 7.1935776e+17,
+      "organization": "Tsinghua University,Microsoft Research",
+      "parameters": null,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2016-03-04",
+      "training_compute_flop": 9.69408e+16,
+      "organization": "Carnegie Mellon University (CMU)",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2016-01-27",
+      "training_compute_flop": 1.9e+21,
+      "organization": "DeepMind",
+      "parameters": null,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2015-12-16",
+      "training_compute_flop": 5886144000000000.0,
+      "organization": "University of Cambridge",
+      "parameters": 66000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2015-12-10",
+      "training_compute_flop": 1.041408e+19,
+      "organization": "Microsoft",
+      "parameters": 60200000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2015-12-10",
+      "training_compute_flop": 7.004e+18,
+      "organization": "Microsoft",
+      "parameters": 44500000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2015-12-02",
+      "training_compute_flop": 1e+20,
+      "organization": "Google,University College London (UCL)",
+      "parameters": 23626728.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2015-10-28",
+      "training_compute_flop": 1.2311081250000001e+19,
+      "organization": "Beijing Institute of Technology,Sun Yat-sen University,Panasonic R&D,National University of Singapore",
+      "parameters": 138000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2015-10-01",
+      "training_compute_flop": 3.8e+20,
+      "organization": "DeepMind",
+      "parameters": 8209984.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2015-08-07",
+      "training_compute_flop": 4.8098691e+17,
+      "organization": "University of Maryland,Rutgers University",
+      "parameters": 5006000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2015-05-18",
+      "training_compute_flop": 5.0832252e+16,
+      "organization": "University of Freiburg",
+      "parameters": 37676160.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2015-04-06",
+      "training_compute_flop": 1.9410191999999997e+17,
+      "organization": "Carnegie Mellon University (CMU)",
+      "parameters": 18413568.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "2015-03-17",
+      "training_compute_flop": 3.4153451e+16,
+      "organization": "Chinese Academy of Sciences,Huawei Noah's Ark Lab,Dublin City University",
+      "parameters": 8000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2015-02-06",
+      "training_compute_flop": 2.397403008e+19,
+      "organization": "Microsoft Research",
+      "parameters": 87048800.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2014-12-22",
+      "training_compute_flop": 624979800000000.0,
+      "organization": "University of Amsterdam,OpenAI,University of Toronto",
+      "parameters": 2370000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2014-12-18",
+      "training_compute_flop": 1e+17,
+      "organization": "University of Warwick",
+      "parameters": 27000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2014-12-03",
+      "training_compute_flop": 2.97600000001e+20,
+      "organization": "Google",
+      "parameters": 62000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2014-11-29",
+      "training_compute_flop": 1.0854e+16,
+      "organization": "Chinese University of Hong Kong (CUHK)",
+      "parameters": 706048.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2014-09-17",
+      "training_compute_flop": 1.51e+18,
+      "organization": "Google,University of Michigan,University of North Carolina",
+      "parameters": 6797700.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2014-09-14",
+      "training_compute_flop": 4.4e+16,
+      "organization": "Singapore University of Technology & Design,DSO National Laboratories",
+      "parameters": 5000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2014-09-10",
+      "training_compute_flop": 5.6e+19,
+      "organization": "Google",
+      "parameters": 1920000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2014-09-04",
+      "training_compute_flop": 1.1e+19,
+      "organization": "University of Oxford",
+      "parameters": 144000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2014-09-04",
+      "training_compute_flop": 1.2291e+19,
+      "organization": "University of Oxford",
+      "parameters": 138000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2014-09-01",
+      "training_compute_flop": 1.5552e+18,
+      "organization": "Jacobs University Bremen,University of Montreal / Universit\u00e9 de Montr\u00e9al",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2014-07-15",
+      "training_compute_flop": 76380000000000.0,
+      "organization": "Chinese Academy of Sciences",
+      "parameters": 6144.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2014-07-01",
+      "training_compute_flop": 6.9e+16,
+      "organization": "University College London (UCL)",
+      "parameters": null,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2014-06-18",
+      "training_compute_flop": 3.411072e+18,
+      "organization": "Microsoft,Xi\u2019an Jiaotong University,University of Science and Technology of China (USTC)",
+      "parameters": null,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2014-06-10",
+      "training_compute_flop": 5.184e+17,
+      "organization": "University of Montreal / Universit\u00e9 de Montr\u00e9al",
+      "parameters": null,
+      "domain": "Image generation"
+    },
+    {
+      "name": "",
+      "date": "2013-12-20",
+      "training_compute_flop": 475200000000000.0,
+      "organization": "University of Amsterdam",
+      "parameters": 784000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2013-12-19",
+      "training_compute_flop": 2846883840000000.0,
+      "organization": "DeepMind",
+      "parameters": 836096.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "2013-12-05",
+      "training_compute_flop": 1.340928e+18,
+      "organization": "Universite de Technologie de Compi\u00e8gne \u2013 CNRS,Google",
+      "parameters": 942000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2013-11-12",
+      "training_compute_flop": 5.32e+17,
+      "organization": "New York University (NYU)",
+      "parameters": null,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2013-10-16",
+      "training_compute_flop": 3.888e+16,
+      "organization": "Google",
+      "parameters": 692000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2013-10-01",
+      "training_compute_flop": 1.422e+16,
+      "organization": "Stanford University",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2013-10-01",
+      "training_compute_flop": 9331200000000000.0,
+      "organization": "University of Oxford",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2013-08-01",
+      "training_compute_flop": 2.3774688e+17,
+      "organization": "New York University (NYU)",
+      "parameters": 51609600.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2013-05-26",
+      "training_compute_flop": 1.2773376e+17,
+      "organization": "Google,University of Toronto,New York University (NYU)",
+      "parameters": 101706240.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "2013-01-16",
+      "training_compute_flop": 2.612736e+18,
+      "organization": "Google",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2012-12-03",
+      "training_compute_flop": 4.78e+17,
+      "organization": "IDSIA,SUPSI",
+      "parameters": 218896.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2012-12-03",
+      "training_compute_flop": 3.114e+17,
+      "organization": "Google",
+      "parameters": 47185920.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "2012-09-30",
+      "training_compute_flop": 4.7e+17,
+      "organization": "University of Toronto",
+      "parameters": 60000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2012-09-09",
+      "training_compute_flop": 1.66e+16,
+      "organization": "RWTH Aachen University",
+      "parameters": 102720000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2012-07-12",
+      "training_compute_flop": 6e+17,
+      "organization": "Google",
+      "parameters": 1000000000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2012-06-03",
+      "training_compute_flop": 6039370800000000.0,
+      "organization": "University of Toronto",
+      "parameters": 5594010.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2012-06-03",
+      "training_compute_flop": 2.731968e+17,
+      "organization": "University of Toronto",
+      "parameters": null,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2012-06-03",
+      "training_compute_flop": 4268700000000000.0,
+      "organization": "University of Toronto",
+      "parameters": null,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2011-10-03",
+      "training_compute_flop": 991981425600000.0,
+      "organization": "IDSIA",
+      "parameters": 1388800.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2011-09-18",
+      "training_compute_flop": 2.6e+16,
+      "organization": "IDSIA",
+      "parameters": 128420.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2011-09-18",
+      "training_compute_flop": 5.2e+16,
+      "organization": "IDSIA",
+      "parameters": 120620.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2011-07-16",
+      "training_compute_flop": 2.57985e+16,
+      "organization": "IDSIA,SUPSI",
+      "parameters": 4878300.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2011-04-29",
+      "training_compute_flop": 3.672864e+16,
+      "organization": "University of Toronto",
+      "parameters": 139808256.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2010-09-26",
+      "training_compute_flop": 5.396e+16,
+      "organization": "Johns Hopkins University",
+      "parameters": 70265000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2010-09-15",
+      "training_compute_flop": 1456277227200000.0,
+      "organization": "University of Bonn",
+      "parameters": 268664.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2010-09-15",
+      "training_compute_flop": 1221124128768000.0,
+      "organization": "University of Bonn",
+      "parameters": 294912.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2010-06-13",
+      "training_compute_flop": 1080000000000000.0,
+      "organization": "Massachusetts Institute of Technology (MIT)",
+      "parameters": null,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2010-05-13",
+      "training_compute_flop": 350000000000000.0,
+      "organization": "University of Montreal / Universit\u00e9 de Montr\u00e9al",
+      "parameters": 7082000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2009-11-22",
+      "training_compute_flop": 2452090060800000.0,
+      "organization": "",
+      "parameters": 16818176.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2009-11-22",
+      "training_compute_flop": 4181852160000000.0,
+      "organization": "",
+      "parameters": 11616256.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2009-11-22",
+      "training_compute_flop": 3295150080000000.0,
+      "organization": "University of Bonn",
+      "parameters": 13729792.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2009-09-01",
+      "training_compute_flop": 20754000000000.0,
+      "organization": "New York University (NYU)",
+      "parameters": 258800.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2009-06-15",
+      "training_compute_flop": 1000000000000000.0,
+      "organization": "Stanford University",
+      "parameters": 100000000.0,
+      "domain": "Other"
+    },
+    {
+      "name": "",
+      "date": "2008-12-09",
+      "training_compute_flop": 1614600000.0,
+      "organization": "University of Siena",
+      "parameters": 30.0,
+      "domain": "Other"
+    },
+    {
+      "name": "",
+      "date": "2007-06-22",
+      "training_compute_flop": 1.4494464e+18,
+      "organization": "Google",
+      "parameters": 300000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2007-06-22",
+      "training_compute_flop": 7.7303808e+17,
+      "organization": "Google",
+      "parameters": 21000000000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2006-06-17",
+      "training_compute_flop": 745200000000000.0,
+      "organization": "New York University (NYU)",
+      "parameters": 90857.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2005-08-07",
+      "training_compute_flop": 3482081588304.0,
+      "organization": "Microsoft Research,Microsoft",
+      "parameters": 5711.0,
+      "domain": "Search"
+    },
+    {
+      "name": "",
+      "date": "2005-01-06",
+      "training_compute_flop": 115848000000000.0,
+      "organization": "",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2004-12-01",
+      "training_compute_flop": 2782080000000000.0,
+      "organization": "",
+      "parameters": 4096000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2004-06-27",
+      "training_compute_flop": 974230000000.0,
+      "organization": "New York University (NYU)",
+      "parameters": 90575.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2003-03-15",
+      "training_compute_flop": 132076260000000.0,
+      "organization": "University of Montreal / Universit\u00e9 de Montr\u00e9al",
+      "parameters": 4124233.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2003-03-15",
+      "training_compute_flop": 1666869200000000.0,
+      "organization": "University of Montreal / Universit\u00e9 de Montr\u00e9al",
+      "parameters": 11904264.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "2001-12-08",
+      "training_compute_flop": 63000000000000.0,
+      "organization": "Mitsubishi Electric Research Labs,Compaq CRL",
+      "parameters": 12000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2000-11-28",
+      "training_compute_flop": 51810000000000.0,
+      "organization": "University College London (UCL)",
+      "parameters": 3925310.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "2000-11-28",
+      "training_compute_flop": 6339000000000000.0,
+      "organization": "University of Montreal / Universit\u00e9 de Montr\u00e9al",
+      "parameters": 6906980.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "1999-06-02",
+      "training_compute_flop": 3864000000000.0,
+      "organization": "",
+      "parameters": 112000.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "1999-06-02",
+      "training_compute_flop": 8013600000000.0,
+      "organization": "",
+      "parameters": 66780.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "1998-11-01",
+      "training_compute_flop": 2810937600000.0,
+      "organization": "AT&T",
+      "parameters": 60000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1997-11-15",
+      "training_compute_flop": 31512000000000.0,
+      "organization": "Technical University of Munich",
+      "parameters": 10504.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "1997-01-31",
+      "training_compute_flop": 31431600000.0,
+      "organization": "",
+      "parameters": 32015.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1996-06-18",
+      "training_compute_flop": 25859616000.0,
+      "organization": "Carnegie Mellon University (CMU)",
+      "parameters": 6452.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1996-06-03",
+      "training_compute_flop": 881733600000.0,
+      "organization": "",
+      "parameters": 13607.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1995-11-27",
+      "training_compute_flop": 195544800000.0,
+      "organization": "University of Texas at Austin",
+      "parameters": 432800.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1994-12-02",
+      "training_compute_flop": 18621900000000.0,
+      "organization": "Technical University of Munich",
+      "parameters": 206910.0,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "1994-12-02",
+      "training_compute_flop": 858730812676.0,
+      "organization": "",
+      "parameters": 72251.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "1994-12-02",
+      "training_compute_flop": 453600000000.0,
+      "organization": "",
+      "parameters": 384000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1994-12-02",
+      "training_compute_flop": 80828280.0,
+      "organization": "",
+      "parameters": 4446.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1994-01-07",
+      "training_compute_flop": 4531200000.0,
+      "organization": "Sapienza Universit\u00e0 di Roma",
+      "parameters": 1888.0,
+      "domain": "Materials science"
+    },
+    {
+      "name": "",
+      "date": "1993-11-29",
+      "training_compute_flop": 17534400000.0,
+      "organization": "",
+      "parameters": 5620.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1993-08-01",
+      "training_compute_flop": 12869570138112.0,
+      "organization": "Bell Laboratories",
+      "parameters": 744.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1992-10-16",
+      "training_compute_flop": 53460000.0,
+      "organization": "National Cancer Institute",
+      "parameters": 594.0,
+      "domain": "Medicine"
+    },
+    {
+      "name": "",
+      "date": "1992-05-01",
+      "training_compute_flop": 18232157622832.703,
+      "organization": "IBM",
+      "parameters": 25000.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "1991-12-02",
+      "training_compute_flop": 75474000000.0,
+      "organization": "",
+      "parameters": 8386.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "1990-10-01",
+      "training_compute_flop": 78775200000.0,
+      "organization": "",
+      "parameters": 72940.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1990-06-17",
+      "training_compute_flop": 3059337600.0,
+      "organization": "",
+      "parameters": 36.0,
+      "domain": "Other"
+    },
+    {
+      "name": "",
+      "date": "1990-06-01",
+      "training_compute_flop": 35811936000.0,
+      "organization": "Oregon State University",
+      "parameters": 27480.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "1989-12-01",
+      "training_compute_flop": 1496338054440.0,
+      "organization": "AT&T,Bell Laboratories",
+      "parameters": 9760.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1989-11-27",
+      "training_compute_flop": 7485696000.0,
+      "organization": "University of Washington",
+      "parameters": 3040.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "1989-11-27",
+      "training_compute_flop": 181440000000.0,
+      "organization": "AT&T",
+      "parameters": 2578.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1989-06-18",
+      "training_compute_flop": 27000000000.0,
+      "organization": "Complutense University of Madrid",
+      "parameters": null,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1988-08-01",
+      "training_compute_flop": 296425000.0,
+      "organization": "McGill University",
+      "parameters": 10000.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "1987-06-15",
+      "training_compute_flop": 18032947200.0,
+      "organization": "Carnegie Mellon University (CMU)",
+      "parameters": 816.0,
+      "domain": ""
+    },
+    {
+      "name": "",
+      "date": "1987-06-06",
+      "training_compute_flop": 28328002560.0,
+      "organization": "Princeton University",
+      "parameters": 18629.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "1987-06-06",
+      "training_compute_flop": 27664065000.0,
+      "organization": "Princeton University",
+      "parameters": 18629.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "1986-10-01",
+      "training_compute_flop": 673920000.0,
+      "organization": "University of California San Diego,Carnegie Mellon University (CMU)",
+      "parameters": 720.0,
+      "domain": "Mathematics"
+    },
+    {
+      "name": "",
+      "date": "1986-08-15",
+      "training_compute_flop": 388800000.0,
+      "organization": "Carnegie Mellon University (CMU)",
+      "parameters": 432.0,
+      "domain": "Other"
+    },
+    {
+      "name": "",
+      "date": "1983-09-01",
+      "training_compute_flop": 324000000.0,
+      "organization": "University of Massachusetts Amherst",
+      "parameters": 324.0,
+      "domain": "Robotics"
+    },
+    {
+      "name": "",
+      "date": "1980-04-01",
+      "training_compute_flop": 273738240.0,
+      "organization": "NHK Broadcasting Science Research Laboratories",
+      "parameters": 1140576.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1975-09-01",
+      "training_compute_flop": 5184000.0,
+      "organization": "Biological Cybernetics",
+      "parameters": 21600.0,
+      "domain": "Other"
+    },
+    {
+      "name": "",
+      "date": "1966-11-01",
+      "training_compute_flop": 105917060.0,
+      "organization": "IBM",
+      "parameters": 2061.0,
+      "domain": "Speech"
+    },
+    {
+      "name": "",
+      "date": "1965-10-01",
+      "training_compute_flop": 1080000.0,
+      "organization": "Purdue University",
+      "parameters": null,
+      "domain": "Robotics"
+    },
+    {
+      "name": "",
+      "date": "1963-01-01",
+      "training_compute_flop": 22500000.0,
+      "organization": "IBM",
+      "parameters": null,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1962-06-01",
+      "training_compute_flop": 1559250.0,
+      "organization": "Bell Laboratories",
+      "parameters": null,
+      "domain": "Mathematics"
+    },
+    {
+      "name": "",
+      "date": "1960-06-30",
+      "training_compute_flop": 6600.0,
+      "organization": "Stanford University",
+      "parameters": 17.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1960-03-30",
+      "training_compute_flop": 720000000.0,
+      "organization": "Cornell Aeronautical Laboratory",
+      "parameters": 1000.0,
+      "domain": "Vision"
+    },
+    {
+      "name": "",
+      "date": "1959-07-01",
+      "training_compute_flop": 428400000.0,
+      "organization": "IBM",
+      "parameters": 16.0,
+      "domain": "Games"
+    },
+    {
+      "name": "",
+      "date": "1959-02-01",
+      "training_compute_flop": 600000000.0,
+      "organization": "Massachusetts Institute of Technology (MIT)",
+      "parameters": null,
+      "domain": "Language"
+    },
+    {
+      "name": "",
+      "date": "1957-01-01",
+      "training_compute_flop": 694894.9377361819,
+      "organization": "Cornell Aeronautical Laboratory,Cornell University",
+      "parameters": 1000.0,
+      "domain": "Other"
+    },
+    {
+      "name": "",
+      "date": "1950-07-02",
+      "training_compute_flop": 40.0,
+      "organization": "Bell Laboratories",
+      "parameters": 40.0,
+      "domain": "Robotics"
+    }
+  ],
+  "safety_papers": {
+    "2025": 194,
+    "2024": 96,
+    "2023": 42,
+    "2022": 20,
+    "2021": 8,
+    "2020": 6
+  },
+  "github_releases": {
+    "2025": {
+      "open": 31,
+      "total": 31
+    },
+    "2024": {
+      "open": 5,
+      "total": 5
+    },
+    "2023": {
+      "open": 2,
+      "total": 2
+    },
+    "2022": {
+      "open": 1,
+      "total": 1
+    }
+  },
+  "rd_spending": {
+    "US": {
+      "2022": 3.58623,
+      "2021": 3.48313,
+      "2020": 3.42467,
+      "2019": 3.14704,
+      "2018": 2.99045,
+      "2017": 2.88357,
+      "2016": 2.83676,
+      "2015": 2.77328
+    },
+    "China": {
+      "2022": 2.55518,
+      "2021": 2.4326,
+      "2020": 2.40666,
+      "2019": 2.24463,
+      "2018": 2.14058,
+      "2017": 2.11603,
+      "2016": 2.10033,
+      "2015": 2.05701
+    },
+    "EU": {
+      "2022": 2.24284672220334,
+      "2021": 2.26011562990798,
+      "2020": 2.29719910041535,
+      "2019": 2.22360929425213,
+      "2018": 2.1854979220999,
+      "2017": 2.15403562609167,
+      "2016": 2.11896949176037,
+      "2015": 2.11941716314069
+    }
+  }
+}
