@@ -42,6 +42,9 @@ class Params:
     # Do agents *care* about debt in their payoff? (kept for future)
     lam: float = 0.5  # lambda=0 means they ignore debt when choosing actions
 
+    # Direct value of trust/cooperation in payoff
+    omega: float = 1.5  # weight on trust benefit in utility function
+
 
 @dataclass
 class State:
@@ -313,11 +316,13 @@ def compute_payoff(
     params: Params,
 ) -> float:
     """
-    Compute payoff for bloc i: U_i = K_i - lam * Debt_i
+    Compute payoff for bloc i: U_i = K_i - lam * Debt_i + omega * T
     where Debt_i = max(0, K_i - theta * S_i)
+    and omega * T represents the direct value of trust/cooperation
     """
     debt_i = max(0.0, state.K[bloc_i] - params.theta * state.S[bloc_i])
-    payoff = state.K[bloc_i] - params.lam * debt_i
+    trust_benefit = params.omega * state.T
+    payoff = state.K[bloc_i] - params.lam * debt_i + trust_benefit
     return payoff
 
 
