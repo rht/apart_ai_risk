@@ -326,6 +326,37 @@ def compute_payoff(
     return payoff
 
 
+def compute_lookahead_payoff(
+    bloc_i: int,
+    state: State,
+    controls: Controls,
+    params: Params,
+    lookahead_years: float = 2.0,
+    discount_rate: float = 0.2,
+    n_steps: int = 5,
+) -> float:
+    """
+    Compute discounted cumulative payoff by simulating forward lookahead_years.
+    More strategic than single-step payoff.
+
+    Returns: integral of exp(-discount_rate * t) * payoff(t) dt from 0 to lookahead_years
+    """
+    dt = lookahead_years / n_steps
+    current_state = State(K=state.K.copy(), S=state.S.copy(), T=state.T)
+
+    total_payoff = 0.0
+    for step in range(n_steps):
+        t = step * dt
+        # Compute instantaneous payoff
+        instant_payoff = compute_payoff(bloc_i, current_state, params)
+        # Add discounted payoff
+        total_payoff += instant_payoff * np.exp(-discount_rate * t) * dt
+        # Step forward
+        current_state = compute_next_state_single_step(current_state, controls, params, dt)
+
+    return total_payoff
+
+
 def best_response_for_bloc(
     bloc_i: int,
     state: State,
@@ -334,11 +365,19 @@ def best_response_for_bloc(
     dt: float = 0.1,
     budget_constraint: bool = True,
     action_grid: list = None,
+    use_lookahead: bool = True,
+    lookahead_years: float = 2.0,
+    discount_rate: float = 0.2,
 ) -> tuple[float, float, float]:
     """
     Find best response actions for bloc i, given other blocs' actions.
     Returns (aX_i, aS_i, aV_i) that maximize bloc i's payoff.
     Uses discrete grid search for speed.
+
+    Args:
+        use_lookahead: If True, use forward simulation with discounting for strategic behavior
+        lookahead_years: How far to simulate forward (typically 2 years)
+        discount_rate: Exponential discount rate for future payoffs
     """
     if action_grid is None:
         # Coarse grid for speed: only 5 values per action
@@ -366,11 +405,17 @@ def best_response_for_bloc(
 
                 controls = Controls(aX=aX_full, aS=aS_full, aV=aV_full)
 
-                # Compute next state
-                next_state = compute_next_state_single_step(state, controls, params, dt)
-
                 # Compute payoff
-                payoff = compute_payoff(bloc_i, next_state, params)
+                if use_lookahead:
+                    payoff = compute_lookahead_payoff(
+                        bloc_i, state, controls, params,
+                        lookahead_years=lookahead_years,
+                        discount_rate=discount_rate,
+                    )
+                else:
+                    # Original single-step payoff
+                    next_state = compute_next_state_single_step(state, controls, params, dt)
+                    payoff = compute_payoff(bloc_i, next_state, params)
 
                 if payoff > best_payoff:
                     best_payoff = payoff
@@ -385,6 +430,10 @@ def best_response_policy_builder(
     max_iterations: int = 5,
     budget_constraint: bool = True,
     seed: int = 42,
+    action_grid: list = None,
+    use_lookahead: bool = True,
+    lookahead_years: float = 2.0,
+    discount_rate: float = 0.2,
 ) -> Callable[[float, np.ndarray], Controls]:
     """
     Returns a best-response policy function that computes Nash equilibrium
@@ -392,6 +441,10 @@ def best_response_policy_builder(
 
     Args:
         seed: Random seed for deterministic player ordering in best response iteration
+        action_grid: Discrete action values to search over (finer = smoother but slower)
+        use_lookahead: Use forward-looking discounted payoff (more strategic)
+        lookahead_years: Horizon for forward simulation
+        discount_rate: Discount rate for future payoffs
     """
     # Cache for previous actions (warm start)
     cache = {
@@ -424,7 +477,11 @@ def best_response_policy_builder(
             for i in player_order:
                 current_controls = Controls(aX=aX, aS=aS, aV=aV)
                 aX_i, aS_i, aV_i = best_response_for_bloc(
-                    i, state, current_controls, params, dt, budget_constraint
+                    i, state, current_controls, params, dt, budget_constraint,
+                    action_grid=action_grid,
+                    use_lookahead=use_lookahead,
+                    lookahead_years=lookahead_years,
+                    discount_rate=discount_rate,
                 )
                 aX_new[i] = aX_i
                 aS_new[i] = aS_i
@@ -507,13 +564,20 @@ if __name__ == "__main__":
     use_best_response = True  # Set to False to use simple scenario policy
 
     if use_best_response:
-        print("Using best response policy (Nash equilibrium)...")
-        print("Using discrete action grid with 5 values per action")
+        print("Using best response policy (approximate Nash equilibrium)...")
+        # Finer action grid for smoother trajectories (10 values: 0.0, 0.1, 0.2, ..., 0.9, 1.0)
+        action_grid = [i * 0.1 for i in range(11)]
+        action_grid = None
+        print("Using 2-year lookahead with exponential discounting (discount rate = 0.2)")
         policy_fn = best_response_policy_builder(
             params=params,
-            dt=0.1,
+            dt=0.25,
             max_iterations=4,  # Reduced for speed
-            budget_constraint=True,  # Enforce aX + aS + aV <= 1
+            budget_constraint=True,  # Enforce aX + aS + aV = 1
+            action_grid=action_grid,
+            use_lookahead=True,
+            lookahead_years=1.0,
+            discount_rate=0.1,
         )
     else:
         print("Using fixed scenario policy...")
